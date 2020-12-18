@@ -1,0 +1,98 @@
+#   _______   __                      __                 _______             __        __        __    __
+#  |       \ |  \                    |  \               |       \           |  \      |  \      |  \  |  \
+#  | $$$$$$$\| $$  ______    _______ | $$   __          | $$$$$$$\  ______  | $$____  | $$____   \$$ _| $$_
+#  | $$__/ $$| $$ |      \  /       \| $$  /  \         | $$__| $$ |      \ | $$    \ | $$    \ |  \|   $$ \
+#  | $$    $$| $$  \$$$$$$\|  $$$$$$$| $$_/  $$         | $$    $$  \$$$$$$\| $$$$$$$\| $$$$$$$\| $$ \$$$$$$
+#  | $$$$$$$\| $$ /      $$| $$      | $$   $$          | $$$$$$$\ /      $$| $$  | $$| $$  | $$| $$  | $$ __
+#  | $$__/ $$| $$|  $$$$$$$| $$_____ | $$$$$$\  {\{\    | $$  | $$|  $$$$$$$| $$__/ $$| $$__/ $$| $$  | $$|  \
+#  | $$    $$| $$ \$$    $$ \$$     \| $$  \$$\ {-.-)   | $$  | $$ \$$    $$| $$    $$| $$    $$| $$   \$$  $$
+#   \$$$$$$$  \$$  \$$$$$$$  \$$$$$$$ \$$   \$$ o_{"}{") \$$   \$$  \$$$$$$$ \$$$$$$$  \$$$$$$$  \$$    \$$$$
+
+#======================================
+#     Menu Settings
+#======================================
+
+menu.title.bg: raised
+menu.title.bg.color: #181818
+menu.title.text.color: #FBE2B2
+menu.separator.color: #242424
+menu.items.bg: raised
+menu.items.bg.color: #181818
+menu.items.text.color: #FBE2B2
+menu.items.disabled.text.color: #707070
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #A95939 
+menu.items.active.bg.border.color: #A55332
+menu.items.active.text.color: #ffffff
+
+#======================================
+#     General Window Settings
+#======================================
+#
+window.*.title.bg: raised
+window.*.title.bg.color:  #181818
+window.*.handle.bg: raised
+window.*.handle.bg.color: #181818
+window.*.grip.bg: parentrelative
+window.*.label.bg: parentrelative
+window.*.button.*.bg: parentrelative
+
+#======================================
+#     Focused Window Settings
+#======================================
+
+window.active.label.text.color: #FBE2B2
+window.active.button.unpressed.image.color: #FBE2B2
+window.active.button.pressed.image.color: #E96734
+window.active.button.disabled.image.color: #2d3036
+window.active.button.hover.image.color: #A54A27
+window.active.button.toggled.unpressed.image.color: #FBE2B2
+window.active.button.toggled.pressed.image.color: #E96734
+window.active.button.toggled.hover.image.color: #A54A27
+
+#======================================
+#     Unfocused Window Settings
+#======================================
+
+window.inactive.label.text.color: #784835
+window.inactive.button.unpressed.image.color: #45291E
+window.inactive.button.pressed.image.color: #E96734
+window.inactive.button.disabled.image.color: #2d3036
+window.inactive.button.hover.image.color: #A54A27
+window.inactive.button.toggled.unpressed.image.color: #45291E
+window.inactive.button.toggled.pressed.image.color: #E96734
+window.inactive.button.toggled.hover.image.color: #A54A27
+
+#======================================
+#     Global Width Settings
+#======================================
+
+padding.width: 3
+padding.height: 1
+border.width: 1
+window.handle.width: 0
+window.client.padding.width: 0
+window.client.padding.height: 0
+menu.overlap.x: -5
+
+#======================================
+#     Miscellaneous Settings
+#======================================
+
+border.color: #000000
+menu.border.color: #000000
+
+#======================================
+#     Osd
+#======================================
+
+osd.hilight.bg: flat border
+osd.hilight.bg.color: #A95939
+osd.hilight.bg.border.color: #A55332
+
+#======================================
+#     Title Justification
+#======================================
+
+menu.title.text.justify: center
+window.label.text.justify: center
