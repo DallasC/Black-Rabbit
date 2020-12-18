@@ -1,0 +1,105 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=top
+  allign=left
+  margin=0
+  widthtype=percent
+  width=64
+  height=26
+  transparent=0
+  tintcolor=#cc1111
+  alpha=240
+  setdocktype=1
+  setpartialstrut=0
+  usefontcolor=1
+  fontcolor=#fdfdff
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
+  iconsize=18
+  autohide=1
+  align=center
+  heightwhenhidden=0
+}
+Plugin {
+  type=menu
+  Config {
+    image=/home/dallas/Pictures/Pir/Ships/dinghy1.png
+    system {
+    }
+    separator {
+    }
+    item {
+      command=run
+    }
+    separator {
+    }
+    item {
+      image=gnome-logout
+      command=logout
+    }
+  }
+}
+Plugin {
+  type=launchtaskbar
+  Config {
+    Button {
+      id=firefox.desktop
+    }
+    Button {
+      id=leafpad.desktop
+    }
+    FlatButton=0
+    GroupedTasks=0
+    UseSmallerIcons=-1
+    IconsOnly=0
+    ShowAllDesks=0
+    SameMonitorOnly=0
+    UseUrgencyHint=-1
+    DisableUpscale=0
+    MaxTaskWidth=200
+    spacing=1
+    tooltips=-1
+    UseMouseWheel=0
+    LaunchTaskBarMode=1
+  }
+  expand=1
+}
+Plugin {
+  type=tray
+  Config {
+  }
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=%R
+    TooltipFmt=%A %x
+    BoldFont=1
+    IconOnly=0
+    CenterText=0
+  }
+}
+Plugin {
+  type=volume
+  Config {
+    CardNumber=-1
+    MasterChannel=Master
+    MixerCommand=pavucontrol
+    MixerCommandTerm=0
+  }
+}
+Plugin {
+  type=bluetooth
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=/usr/share/applications/lubuntu-logout.desktop
+    }
+  }
+}
